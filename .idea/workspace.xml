@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77229e75-57c9-4299-96c2-fa4b25ae0625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infinity/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infinity/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/DemoAntimalware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/common/Policy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/AntimalwarePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Autoprotect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Custom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Daily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/EndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Full.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/GlobalScanOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Linux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/OutlookMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Quarantine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/RepDiscoveredRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/RepPrevalenceRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Scan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Sonar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/SymElam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/SystemEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Weekly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/antimalware/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/BehaviouralPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/behavioural/SuspiciousBehaviorEnhancementRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/ExceptionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/ExceptionFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/ExceptionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Extension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/IpsHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Linux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Rulestate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/exception/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/BaselineRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/EndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/EnforcedRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/FirewallPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/IcmpTypeRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/IpRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Port.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/ProtocolIdRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/Rulestate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/firewall/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/AppNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/CaptiveProtectedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/CorporateHotspots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/DnsValidationSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/FullDetectionTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Ios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/LiteDetectionTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/NetworkIntegrityPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/RemediationDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/RemediationDetectionWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/RemediationOpenNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/RemediationSuspiciousReputation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/RemediationSuspiciousReputationWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/SecureConnectionSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/SecurityCheckUrls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/SrpDomains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Sslstrip2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/SuspiciousDnsDomainsToAlternativeDomains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/WhitelistChainHashes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/WhitelistedHotspots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkIntegrity/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/IpsSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/NetworkIPSEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/NetworkIPSPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/RuleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/java/policy/model/networkips/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/resources/NetworkIntegrity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/resources/antimalware.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/resources/behavioural.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/resources/exception.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/resources/firewall.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/src/main/resources/networkips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-client/parkingLot/src/main/java/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-client/parkingLot/src/main/java/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-client/parkingLot/src/main/java/ParkingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-client/parkingLot/src/main/java/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../metrics-acutator/src/main/java/com.symantec/AcutatorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../metrics-acutator/src/main/java/com.symantec/Controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../metrics-acutator/src/main/java/com.symantec/Controller/LatencyAndCounters1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../metrics-acutator/src/main/java/com.symantec/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../metrics-acutator/src/main/java/com.symantec/model/Policy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../metrics-acutator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/APIGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/SwaggerSpringDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/Blacklist/DenyListConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/Blacklist/DenyListFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/Blacklist/DenyListRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/Blacklist/DenylistPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/Blacklist/ProcessFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/Blacklist/RuleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABControlRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/CABProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/ConditionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/ExcludeProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/FileCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/FileConditionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/LaunchProcessCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/LaunchProcessConditionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/ModuleCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/ModuleConditionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/Read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/RegKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/RegistryCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/RegistryConditionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/RuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/TerminateProcessCondititonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/TerminationProcessCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/CAB/Write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/TDAD/ExcludeUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/TDAD/Exclusions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/TDAD/TDADConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/TDAD/TDADFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/TDAD/TDADPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareDaily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareLinux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwarePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/AntimalwareWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Autoprotect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/CommonScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Full.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/GlobalScanOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/LinuxCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/LinuxScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/MacCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/MacScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Monthly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/OutlookMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Quarantine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/RepDiscoveredRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/RepPrevalenceRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Scan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Sonar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/SymElam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/SystemEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/Weekly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/WindowsCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/antimalware/WindowsScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/behavioural/BehaviouralConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/behavioural/BehaviouralFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/behavioural/BehaviouralPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/behavioural/SuspiciousBehaviorEnhancementRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/common/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/common/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/common/Policy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/common/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/common/SepWindowsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/common/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/Allow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/ControlRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/DeviceControlRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/devicecontrol/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionIpRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionIpRangeHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionLinux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionRulestate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/ExceptionWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/Extension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/IP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/IpsHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/Ipv4Subnet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/Ipv4SubnetIPSHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/Ipv6SubnetIPSHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/LinuxDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/LinuxFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/MacDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/MacFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/WindowsDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/exception/WindowsFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Artifacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/CmdLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/DstIp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/DstIpTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/FDRConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/FDRFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/FDRPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/GranularPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/MonitorPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/PathActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/PathTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Policies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/SchedulePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Sha2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Sha2Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/fdr/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/featureselection/FeatureSelectionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/featureselection/FeatureSelectionFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/featureselection/FeatureSelectionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/featureselection/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/featureselection/Workstation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/BaselineRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/DnsDomainHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/DnsHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/EnforcedRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallIpsHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/FirewallRulestate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/IPHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/IPV6SubnetHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/IcmpTypeRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/IpRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/IpRangeHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Ipv4Subnet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Ipv4SubnetHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/LocalSubnetHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/MacHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/Port.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/ProtocolIDInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/ProtocolIDRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/ProtocolIDs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/ProtocolIdRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/firewall/TimeSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/hostIntegrity/HostIntegrityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/hostIntegrity/HostIntegrityFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/hostIntegrity/HostIntegrityPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/mem/CustomRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/mem/MemConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/mem/MemFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/mem/MemPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/AppNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/CaptiveProtectedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/CorporateHotspots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/DnsValidationSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/FullDetectionTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/LiteDetectionTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/NetworkIntegrityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/NetworkIntegrityFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/NetworkIntegrityIos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/NetworkIntegrityPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/NetworkIntegrityWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/RemediationDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/RemediationDetectionWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/RemediationOpenNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/RemediationSuspiciousReputation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/RemediationSuspiciousReputationWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/SecureConnectionSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/SecurityCheckUrls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/SrpDomains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/Sslstrip2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/SuspiciousDnsDomainsToAlternativeDomains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/WhitelistChainHashes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkIntegrity/WhitelistedHotspots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/IpsSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSRuleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/networkips/NetworkIPSWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/securecloudaccess/TrafficRedirectionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/securecloudaccess/TrafficRedirectionFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/securecloudaccess/TrafficRedirectionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/AppCtrlGlobal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Autoenable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Autoupgrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/ClientLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/ContinuoslySchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/CustomHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Discovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/FileWatchAppCtrlNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/IntervalSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/LiveUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/LockedEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/NetworkProtection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/PasswordProtection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/RegistryAppCtrlNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/RegistryKey1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/RegistryKey2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/RegistryKey3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Restart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Scan0001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Scan0002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Scan0003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Scan0004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Scan0005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemDaily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemDailySchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemEndpointNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemRestartImmediate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemRestartSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/SystemScheduledRestart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/TamperProtection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Thresholds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/policy/agent/model/apigateway/system/Weekly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/src/main/java/com/symantec/policy/client/LibraryPolicyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/src/main/java/com/symantec/policy/client/TargetRuleClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/src/main/java/com/symantec/policy/client/helper/PageRequestHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/src/main/resources/spring/policy-service-amqp-client-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/src/main/resources/spring/policy-service-client-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-client/src/main/resources/spring/policy-service-http-client-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/project.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/app.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/diff.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/library.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/policy.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/policygroup.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/rule.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/clojure/cdm_policy/tenant.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/config.edn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/0/cp_domain.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/0/cp_domain_symantec_data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/1/cp_library.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/1/cp_policy_type_populate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/1/cp_policytype.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/2/cp_policy.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/2/cp_policy_status_populate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/2/cp_policy_version_map.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/2/cp_policyabstract.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/2/cp_policystatus.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/3/cp_policygroup.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/3/cp_policygroup_policy_map.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/3/cp_policygroup_version_map.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/4/cp_targetrule.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_assetgroup_policy_map.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_library_data_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_library_symantec_max_version_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_library_symantec_type_subtype_max_version_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_library_type_subtype_max_version_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_library_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_assetgroup_count_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_base_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_count_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_latest_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_library_data_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_max_version_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_policygroup_count_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policy_total_assetgroup_counts_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policygroup_base_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policygroup_count_latest_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policygroup_count_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policygroup_max_version_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policygroup_policy_count_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/5/cp_policygroup_policy_vw.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/main/resources/schema/app_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/clojure/clojars/mysql/app_test.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/conf/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/conf/dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/env.edn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/group/g1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/group/g2-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/group/g2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/rules/rule1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/rules/rule2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/workspace/network-ips-policy-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/workspace/network-ips-policy-2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/workspace/ws1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-core/src/test/resources/workspace/ws2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/constants/PolicyConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/CommonPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/CreatePolicyRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/LibraryPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PolicyContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PolicyGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PolicyGroupAbstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PolicyGroupDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PolicySetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/PolicyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/TargetRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/Tenant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/model/WorkspacePolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/thirdparty/AppDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/thirdparty/CpeWfn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/util/JSONHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-model/src/main/java/com/symantec/policy/util/ObjectSerializationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-dev-int/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-dev-int/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-dev-int/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-eu-prod-1/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-eu-prod-2/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-eu-stage-1/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-eu-stage-1/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-eu-stage-1/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-load-1/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-load-1/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-load-1/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-prod-1/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-prod-1/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-prod-1/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-prod-2/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-prod-2/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-prod-2/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-stage-1/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-stage-1/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-stage-1/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-stage-2/inventory/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-stage-2/openshift_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/saep-stage-2/property_overrides.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/shared/files/bootstrap/service_users/commonpolicy_service_user.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/shared/vars/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/shared/vars/lmm_shared_vars.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/shared/vars/openshift_deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/environments/shared/vars/yum_repos_vars.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/openshift/non-prod/policy-service-template.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/openshift_deploy/defaults/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/openshift_deploy/handlers/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/openshift_deploy/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/openshift_deploy/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/openshift_deploy/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/defaults/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/application-override.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/epmp-i.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/kafka.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/mdmcore.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/policy-service-datasource.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/policy-service-flyway.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/policy-service.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/paas-openshift/src/roles/policy_service/templates/rabbitmq.properties.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service-deployment/src/assembly/assembly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/docker/docker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/docker/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../policy-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/assembly/dev.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/assembly/r3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/CustomerContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/ProdApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/auth/AuthorizeDeletePolicyGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/auth/AuthorizeDeleteWorkspace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/auth/AuthorizeEditPolicyGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/auth/AuthorizeEditWorkspace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/app/auth/AuthorizeViewPolicyGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/exception/PolicyServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/exception/PolicyServiceExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/DefaultLibraryPolicyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/LibraryPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/LibraryPolicyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/LibraryPolicyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/PolicyContentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/cwp/CWPLibraryPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/cwp/CWPPolicySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/cwp/CWPXmlPolicySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/cwp/CWPZipPolicySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/dcs/DCSLibraryPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/dcs/DCSLibraryPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/dcs/DCSPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/dcs/DCSPolicySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/dcs/DCSXmlPolicySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/dcs/DCSZipPolicySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/edr/EDRLibraryPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/meg/MEGLibraryPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepAgentFrameworkPolicySubTypeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepAppControlPolicySubTypeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepExceptionsPolicySubTypeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepLibraryPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepPolicySourceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepPolicySubTypeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepProvisionSourceAdapater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SepmPolicyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/SystemPolicyHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Autoenable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Autoupgrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/AutoupgradeSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/ClientLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Continuously.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/CustomHosts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Daily.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Discovery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Immediate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Interval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/LiveUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/LockedEngines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Monthly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/NetworkProtection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/PasswordProtection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Restart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/RestartSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/SystemEndpointNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/SystemEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/SystemPolicyConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/TamperProtection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Thresholds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/UserPauseTillSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/library/sepm/model/Weekly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/provision/TenantService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/targeting/DefaultTargetRuleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/targeting/TargetRuleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/targeting/TargetRuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/targeting/TragetRuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/thirdparty/EpmpUserServiceGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/thirdparty/UserServiceGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/DefaultPolicyGroupRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/DefaultPolicyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/PolicyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/PolicyGroupRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/PolicyGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/PolicyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/java/com/symantec/common/policy/workspace/PolicyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/resources/spring/policy-core-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/resources/spring/policy-properties-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/resources/spring/policy-rabbit-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/resources/spring/policy-servicehost-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/main/resources/spring/policy-third-party-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/library/LibraryPolicyRegistrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/library/PolicyAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/provision/CustomerProvisioningTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/targeting/TargetRuleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/AbstractPolicyContextTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/AppHomeInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/Assert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/CustomerContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/DefaultApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/FileRW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/test/InMemoryMySQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/thirdparty/FakeUserServiceGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/workspace/PolicyGroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/java/com/symantec/common/policy/workspace/WorkspacePolicyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/conf/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/group/g-multi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/group/g1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/group/g2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/am-policy/library/am-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/am-policy/library/am-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/am-policy/source/am-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/am-policy/source/am-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/am-policy/workspace/am-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/am-policy/workspace/am-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/SDCSSCompiledPolicyPack-vSAEP-m6.7.0-AppControl-2019111401/build-manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/SDCSSCompiledPolicyPack-vSAEP-m6.7.0-AppControl-2019111401/compiled-appcontrol_policy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/SDCSSCompiledPolicyPack-vSAEP-m6.7.0-AppControl-2019111401/compiled-trusted_updater_app_policy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/SDCSSCompiledPolicyPack-vSAEP-m6.7.0-AppControl-2019111401/framework_prevention.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/library/app-control-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/library/trusted-updater-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/source/SDCSSCompiledPolicyPack-vSAEP-m6.7.0-AppControl-2019111401.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/workspace/app-control-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-control/workspace/trusted-updater-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/chrome-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/firefox-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/ie-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/microsoft-edge-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/microsoft-office-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/pdf-renderer-isolation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/library/trusted-updater-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/source/SDCSSCompiledPolicyPack-vSAEP-m6.7.0-AppIsolation-2019111401.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/chrome-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/firefox-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/ie-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/microsoft-edge-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/microsoft-office-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/pdf-renderer-isolation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/app-isolation/workspace/trusted-updater-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/blacklist-policy/library/blacklist-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/blacklist-policy/source/blacklist-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/blacklist-policy/workspace/blacklist-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/chrome-app-isolation/library/chrome-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/chrome-app-isolation/source/compiled-chrome_app_policy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/chrome-app-isolation/workspace/chrome-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/device-control/library/device-control-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/device-control/source/device-control-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/device-control/workspace/device-control-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/edr-policy/library/detection-response-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/edr-policy/source/detection-response-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/edr-policy/workspace/detection-response-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/exception-policy/library/exception-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/exception-policy/source/exception-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/mem-policy/library/mem-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/mem-policy/source/mem-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/mem-policy/workspace/mem-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/network-integrity/library/network-integrity-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/network-integrity/source/network-integrity-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/network-integrity/workspace/network-integrity-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/network-ips/library/network-ips-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/network-ips/source/network-ips-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/network-ips/workspace/network-ips-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/policy_meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/secure-cloud-access/library/secure-cloud-access-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/secure-cloud-access/source/secure-cloud-access-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/secure-cloud-access/workspace/secure-cloud-access-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/smart-vpn/library/smart-vpn-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/smart-vpn/source/smart-vpn-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/system-policy/library/system-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/system-policy/source/system-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/system-policy/workspace/system-policy-eg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/trust-updater-app-policy/library/trusted-updater-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/trust-updater-app-policy/source/compiled-trusted_updater_app_policy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policies/trust-updater-app-policy/workspace/trusted-updater-policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policy-prod-test-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/policy-standalone-test-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/multi-rules-update-all.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/multi-rules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/rule1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/rule2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/rule3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/rule4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/rule5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/rules/rule6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../policy-service/src/test/resources/workspace/app-control-library-policy-request.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/infinity/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/infinity/HelloWorldController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/infinity/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/infinity/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/infinity/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="953" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infinity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="logistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.infinity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.infinity.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77229e75-57c9-4299-96c2-fa4b25ae0625" name="Default Changelist" comment="" />
+      <created>1631907160681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631907160681</updated>
+      <workItem from="1631907165852" duration="143000" />
+      <workItem from="1632303553551" duration="261000" />
+      <workItem from="1632307858101" duration="348000" />
+      <workItem from="1632333655543" duration="265000" />
+      <workItem from="1632422929820" duration="598000" />
+      <workItem from="1632714786950" duration="582000" />
+      <workItem from="1632716573808" duration="1136000" />
+      <workItem from="1633318311695" duration="445000" />
+      <workItem from="1633323992385" duration="443000" />
+      <workItem from="1640935589725" duration="898000" />
+      <workItem from="1641017538697" duration="896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6015000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771673" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5867347" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/infinite.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/infinity/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/infinity/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
